@@ -4,14 +4,15 @@
   "description": "Proyecto de Api restfull del curso de nodeJS y Angular 2",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mestas",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
